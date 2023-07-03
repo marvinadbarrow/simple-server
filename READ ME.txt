@@ -1,0 +1,5 @@
+commands for updating projects prior to pushing updates to repository:
+
+git add .
+git commit -m "message about update"
+git push origin master
