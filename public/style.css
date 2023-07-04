@@ -19,3 +19,25 @@ a{font-size: 30px; color: white; margin-top: 100px;}
 .h1-div{margin: auto; width: fit-content; height: auto; margin-top: 50px; margin-bottom: 50px;}
 
 .image-div{width: fit-content; height: auto; margin: auto;}
+
+.about-para-container{
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.788);
+    padding: 1rem;
+    font-size: 18px;
+    border-radius: 2%;
+}
+
+.about-para{
+margin-bottom: 3%;
+    color: black;
+}
+
+.shopping-app-link{
+    color: rgb(84, 105, 226);
+    font-size: 20px;
+}
+
+.title-holder{margin: auto; width: fit-content; height: auto; margin-bottom: 3%;color: black;}

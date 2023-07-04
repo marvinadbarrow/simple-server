@@ -72,16 +72,16 @@ switch(extension){
 let filePath = 
 contentType === 'text/html' && req.url === '/'
 ? path.join(__dirname, 'public', 'index.html')
-: contentType === 'text/html' && req.url.slice(-1) === '/'
+: contentType === 'text/html' && req.url.slice(-1) === '/' // remove last character
 ? path.join(__dirname, 'public', req.url, 'index.html')
 : contentType === 'text/html'
 ? path.join(__dirname, 'public', req.url)
 :path.join(__dirname, req.url);
 
 // check for if content type is not html. 
-if(extension && contentType !== 'text/html'){
+if(extension && contentType !== 'text/html'){ //extension exists but is not html
 filePath = path.join(__dirname, req.url);}
-console.log(` JS:84 file path: ${filePath}`)
+console.log(` JS:84 file path: ${filePath}`) // check the file path at this location
 
 
 // if no extension exists
